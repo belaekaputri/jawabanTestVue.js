@@ -64,7 +64,7 @@ const columnsPiutang = [
   <div class="container px-8 py-8">
     <h2 class="text-center text-2xl">Daftar Piutang Unit</h2>
     <div class="my-8">
-      
+      <RefreshPage/>
       <TabelPiutang :data="dataPiutang" :columns="columnsPiutang" />
     </div>
   </div>
