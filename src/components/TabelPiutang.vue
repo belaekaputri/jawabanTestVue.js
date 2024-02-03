@@ -58,7 +58,6 @@ const table = useVueTable({
             />
           </div>
           <table class="min-w-full divide-y divide-gray-300" >
-            {{ table.setPageSize(5) }}
             <thead>
               <tr
                 v-for="headerGroup in table.getHeaderGroups()"
